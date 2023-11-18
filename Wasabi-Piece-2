@@ -1,0 +1,18 @@
+local Test hub Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Test-hub-UI-Library/main/Test-hub.lua"))()
+local window = Test-hub-Library:Load("Test-hub", "Default")
+
+local tab = Test-hub-Library.newTab("spam skill", "ImageIdHere")
+
+tab.newButton("Katana wind spam skill 1", "Prints spam skill 1 katana wind fast", function()
+while wait(0.10) do
+workspace["123HAFIZHPUTRAAAA"].KatanaWind.Skill1.Fire:FireServer()
+end
+    print('spam wind katana skill 1 fast')
+end)
+
+tab.newButton("Katana wind spam skill 2", "Prints spam skill 2 katana wind fast", function()
+while wait(0.10) do
+workspace["123HAFIZHPUTRAAAA"].KatanaWind.Skill2.Fire:FireServer()
+end
+    print('spam wind katana skill 2 fast')
+end)
